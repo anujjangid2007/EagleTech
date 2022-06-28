@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eagletech/static/css/main.bd371f69.css",
+    "main.js": "/eagletech/static/js/main.ab5abffc.js",
+    "static/js/787.03299fab.chunk.js": "/eagletech/static/js/787.03299fab.chunk.js",
+    "index.html": "/eagletech/index.html",
+    "main.bd371f69.css.map": "/eagletech/static/css/main.bd371f69.css.map",
+    "main.ab5abffc.js.map": "/eagletech/static/js/main.ab5abffc.js.map",
+    "787.03299fab.chunk.js.map": "/eagletech/static/js/787.03299fab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd371f69.css",
+    "static/js/main.ab5abffc.js"
+  ]
+}

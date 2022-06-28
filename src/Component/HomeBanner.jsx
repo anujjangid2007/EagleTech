@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
        
 const HomeBanner = (props) => {
     const hstyle = {
-        backgroundImage: `${props.BannerBackgroundImage}`,
+        backgroundImage: `${props.BannerBackgroundImage}`
         // backgroundImage: {process.env.PUBLIC_URL+"url(/images/bg-image.jpeg)"}
     }
 
