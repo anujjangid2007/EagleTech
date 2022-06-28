@@ -1,0 +1,69 @@
+.corona-section{
+    /* padding-top: 100px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: calc(100vh - 45px);
+}
+.corona-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    padding: 15px;
+    min-height: 200px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.corona-card:hover{
+    opacity: 0.8;
+}
+.corona-section ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.corona-section ul li{
+    width: 33.3333333%;
+    /* flex: 1 ; */
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+
+}
+.corona-section ul li:nth-child(odd) .corona-card{
+    background-color: #1c2541;
+}
+.corona-section ul li:nth-child(even) .corona-card{
+    background-color: #0168b2;
+}
+
+.corona-text{
+    font-size: 24px;
+    font-weight: 600;
+}
+.corona-text span{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 4px;
+}
+@media (max-width:991px) {
+    .corona-section{
+       height: auto;
+    }
+    .corona-section ul li{
+        width: 50%;
+    }
+}
+@media (max-width:767px) {
+    /* .corona-section{
+        padding-top: 80px;
+    } */
+    .corona-section ul li{
+        width: 100%;
+    }
+}
