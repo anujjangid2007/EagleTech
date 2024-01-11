@@ -42,9 +42,6 @@ const Header = () => {
           </div>
           <div className="navbar">
             <div className="icon-bar" onClick={() => handleShowHide(false)}>
-             {/* <i></i>
-              <i></i>
-              <i></i>*/}
                <MenuIcon /> 
             </div>
             <ul id="nav-lists" className={showMenu ? "menu-hide" : "_Menus-show"}>

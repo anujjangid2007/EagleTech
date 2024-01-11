@@ -39,8 +39,8 @@ const BannerJsonList = [
       BannerDescription : 'As a full-service digital agency with capabilities across web design & development, Mobile Apps, Machine learning, we believe in perfection by balancing innovative design with quality code.',
       BannerButtonData : 'CONTACT US',
       BannerButtonUrl : '/contact-us',
-      BannerRightImage : './images/about.png',
-      BannerBackgroundImage : 'url(./images/bg-image.jpeg)'
+      BannerRightImage : '/images/about.png',
+      BannerBackgroundImage : 'url(/images/bg-image.jpeg)'
     },
     {
       id : 'banner2',
@@ -49,8 +49,8 @@ const BannerJsonList = [
       BannerDescription : 'At EagleTech, our aim is to enrich the digital experience by offering next-gen IT solutions to both SME and large-scale enterprises. We blend our expertise and advanced software technologies to transform your business into a technology-driven company.',
       BannerButtonData : 'CONTACT US',
       BannerButtonUrl : '/contact-us',
-      BannerRightImage : './images/about-img.png',
-      BannerBackgroundImage : 'url(./images/bg-image.jpeg)'
+      BannerRightImage : '/images/about-img.png',
+      BannerBackgroundImage : 'url(/images/bg-image.jpeg)'
     },
     {
       id : 'banner3',
@@ -59,8 +59,8 @@ const BannerJsonList = [
       BannerDescription : 'As a full-service digital agency with capabilities across web design & development, Mobile Apps, Machine learning, we believe in perfection by balancing innovative design with quality code.',
       BannerButtonData : 'CONTACT US',
       BannerButtonUrl : '/contact-us',
-      BannerRightImage : './images/about.png',
-      BannerBackgroundImage : 'url(./images/bg-image.jpeg)'
+      BannerRightImage : '/images/about.png',
+      BannerBackgroundImage : 'url(/images/bg-image.jpeg)'
     },
 ]
 
@@ -118,7 +118,7 @@ const FourGridData = [
 const PersonalCardList = [
   {
     id : 'personalCard1',
-    personalImgSrc : './images/anujkumar.png',
+    personalImgSrc : '/images/arunkumar.jpg',
     personalCardName : 'Arun Kumar',
     personalCardPost : 'Director',
     personalCardDescription : 'Lorem ipsum dolor sit a met, consenter adipisicing elit. Aliquid dolore ducimus enim eum nam reiciendis repellendus sapiente tempore. Distinctio omnis ratione reiciendis tempora tenetur.?',
@@ -128,9 +128,9 @@ const PersonalCardList = [
   },
   {
     id : 'personalCard2',
-    personalImgSrc : './images/anujkumar.png',
+    personalImgSrc : '/images/anujkumar.png',
     personalCardName : 'Anuj Kumar',
-    personalCardPost : 'Frontend Developer',
+    personalCardPost : 'Developer',
     personalCardDescription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore ducimus enim eum nam reiciendis repellendus sapiente tempore. Distinctio omnis ratione reiciendis tempora tenetur.?',
     personalCardFacebook : 'https://www.facebook.com/anuj.jangid.12',
     personalCardInstagram : 'https://www.instagram.com/jangid.anuj/',
@@ -138,7 +138,7 @@ const PersonalCardList = [
   },
   {
     id : 'personalCard3',
-    personalImgSrc : './images/anujkumar.png',
+    personalImgSrc : '/images/muktikumari.jpg',
     personalCardName : 'Mukti Chauhan',
     personalCardPost : 'Accountant',
     personalCardDescription : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore ducimus enim eum nam reiciendis repellendus sapiente tempore. Distinctio omnis ratione reiciendis tempora tenetur.?',
@@ -179,7 +179,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard1',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://prepatx.com/',
-      PortfolioImg : './images/prepatx.png',
+      PortfolioImg : '/images/prepatx.png',
       PortfolioCategory : 'Category',
       PortfolioTitle : 'PROJECT TITLE',
       PortfolioDate : '2018'
@@ -188,7 +188,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard2',
       PortfolioId : 'Nontech',
       PortfolioLink : 'https://www.stanzaliving.com/delhi/pg-hostel-in-north-campus/male/boston-house',
-      PortfolioImg : './images/gym_noida.png',
+      PortfolioImg : '/images/gym_noida.png',
       PortfolioCategory : 'Gym',
       PortfolioTitle : 'Stanza Living',
       PortfolioDate : '2019'
@@ -197,7 +197,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard3',
       PortfolioId : 'Tech',
       PortfolioLink :'http://maalaimalarsite.vocalwire.com/',
-      PortfolioImg : './images/maalaimalar.png',
+      PortfolioImg : '/images/maalaimalar.png',
       PortfolioCategory : 'News',
       PortfolioTitle : 'Maalaimalar',
       PortfolioDate : '2021'
@@ -206,7 +206,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard4',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://www.thehansindia.com/',
-      PortfolioImg : './images/hansindia.png',
+      PortfolioImg : '/images/hansindia.png',
       PortfolioCategory : 'News Media',
       PortfolioTitle : ' The Hans India',
       PortfolioDate : '2021'
@@ -216,7 +216,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard5',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://assamtribune.com/',
-      PortfolioImg : './images/assamtribune.png',
+      PortfolioImg : '/images/assamtribune.png',
       PortfolioCategory : 'News',
       PortfolioTitle : 'Assam Tribune',
       PortfolioDate : '2021'
@@ -225,7 +225,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard6',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://olympics.dtnext.in/',
-      PortfolioImg : './images/olympics_dtnext.png',
+      PortfolioImg : '/images/olympics_dtnext.png',
       PortfolioCategory : 'Sport',
       PortfolioTitle : 'olympics dtnext',
       PortfolioDate : '2021'
@@ -234,7 +234,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard7',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://prepatx.com/',
-      PortfolioImg : './images/prepatx.png',
+      PortfolioImg : '/images/prepatx.png',
       PortfolioCategory : 'Food',
       PortfolioTitle : ' prepatx',
       PortfolioDate : '2020'
@@ -244,7 +244,7 @@ const PortfolioCardJson = [
       id : 'portfolioCard8',
       PortfolioId : 'Tech',
       PortfolioLink : 'https://skypay.co.in/',
-      PortfolioImg : './images/skypay.png',
+      PortfolioImg : '/images/skypay.png',
       PortfolioCategory : 'Online Payment Application',
       PortfolioTitle : 'Sky Pay',
       PortfolioDate : '2021'
@@ -253,7 +253,7 @@ const PortfolioCardJson = [
     id : 'portfolioCard9',
     PortfolioId : 'Tech',
     PortfolioLink : 'https://www.thanthitv.com/',
-    PortfolioImg : './images/thanthitv.png',
+    PortfolioImg : '/images/thanthitv.png',
     PortfolioCategory : 'News',
     PortfolioTitle : ' ThanthiTV',
     PortfolioDate : '2022'
@@ -262,7 +262,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard10',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://www.dailythanthi.com/',
-  PortfolioImg : './images/dailythunthi.png',
+  PortfolioImg : '/images/dailythunthi.png',
   PortfolioCategory : 'News',
   PortfolioTitle : ' Daily Thunthi',
   PortfolioDate : '2022'
@@ -271,7 +271,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard11',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://thelogicalindian.com/',
-  PortfolioImg : './images/tli.png',
+  PortfolioImg : '/images/tli.png',
   PortfolioCategory : 'News',
   PortfolioTitle : ' The Logical Indian',
   PortfolioDate : '2022'
@@ -280,7 +280,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard12',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://dishadaily.com/',
-  PortfolioImg : './images/dishadaily.png',
+  PortfolioImg : '/images/dishadaily.png',
   PortfolioCategory : 'News',
   PortfolioTitle : 'Disha Daily',
   PortfolioDate : '2022'
@@ -289,7 +289,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard13',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://www.boomlive.in/',
-  PortfolioImg : './images/boomlive.png',
+  PortfolioImg : '/images/boomlive.png',
   PortfolioCategory : 'News',
   PortfolioTitle : 'Boom Live',
   PortfolioDate : '2022'
@@ -298,7 +298,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard14',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://www.instanews.city/',
-  PortfolioImg : './images/instanews.png',
+  PortfolioImg : '/images/instanews.png',
   PortfolioCategory : 'News',
   PortfolioTitle : 'InstaNews',
   PortfolioDate : '2021'
@@ -307,7 +307,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard15',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://www.legaleraonline.com/',
-  PortfolioImg : './images/legalera.png',
+  PortfolioImg : '/images/legalera.png',
   PortfolioCategory : 'News',
   PortfolioTitle : 'Legalera',
   PortfolioDate : '2021'
@@ -316,7 +316,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard16',
   PortfolioId : 'Tech',
   PortfolioLink : 'http://ally.hocalwire.com/',
-  PortfolioImg : './images/cms.png',
+  PortfolioImg : '/images/cms.png',
   PortfolioCategory : 'CMS',
   PortfolioTitle : 'Hocalwire CMS',
   PortfolioDate : '2022'
@@ -325,7 +325,7 @@ const PortfolioCardJson = [
   id : 'portfolioCard17',
   PortfolioId : 'Tech',
   PortfolioLink : 'https://youngindianrevolution.com/',
-  PortfolioImg : './images/yir.png',
+  PortfolioImg : '/images/yir.png',
   PortfolioCategory : 'online shopping',
   PortfolioTitle : 'Young Indian Revolution',
   PortfolioDate : '2019'
@@ -334,16 +334,16 @@ const PortfolioCardJson = [
   id : 'portfolioCard18',
   PortfolioId : 'Tech',
   PortfolioLink : 'http://theintegritywebs.com/',
-  PortfolioImg : './images/tiw.png',
+  PortfolioImg : '/images/tiw.png',
   PortfolioCategory : 'Portfolio',
   PortfolioTitle : 'The Integrity Webs',
   PortfolioDate : '2019'
 },
 {
-  id : 'portfolioCard2',
+  id : 'portfolioCard19',
   PortfolioId : 'Nontech',
   PortfolioLink : 'https://www.larsentoubro.com/',
-  PortfolioImg : './images/larsonandtoubo.png',
+  PortfolioImg : '/images/larsonandtoubo.png',
   PortfolioCategory : 'Electric',
   PortfolioTitle : 'Larson & Toubo',
   PortfolioDate : '2022'
@@ -353,42 +353,42 @@ const PortfolioCardJson = [
 const OurClientList = [
   {
     id : 'clientList1',
-    OurClientImg : "./images/lt.png",
+    OurClientImg : "/images/lt.png",
     OurClientImgAlt : "Larson and Torbo"
   },
   {
     id : 'clientList2',
-    OurClientImg : "./images/stanza-logo.png",
+    OurClientImg : "/images/stanza-logo.png",
     OurClientImgAlt : "Stanza Living"
   },
   {
     id : 'clientList3',
-    OurClientImg : "./images/stanza-logo.png",
+    OurClientImg : "/images/stanza-logo.png",
     OurClientImgAlt : "Larson and Torbo"
   },
   {
     id : 'clientList4',
-    OurClientImg : "./images/lt.png",
+    OurClientImg : "/images/lt.png",
     OurClientImgAlt : "Stanza Living"
   },
   {
     id : 'clientList5',
-    OurClientImg : "./images/lt.png",
+    OurClientImg : "/images/lt.png",
     OurClientImgAlt : "Larson and Torbo"
   },
   {
     id : 'clientList6',
-    OurClientImg : "./images/stanza-logo.png",
+    OurClientImg : "/images/stanza-logo.png",
     OurClientImgAlt : "Stanza Living"
   },
   {
     id : 'clientList7',
-    OurClientImg : "./images/stanza-logo.png",
+    OurClientImg : "/images/stanza-logo.png",
     OurClientImgAlt : "Larson and Torbo"
   },
   {
     id : 'clientList8',
-    OurClientImg : "./images/lt.png",
+    OurClientImg : "/images/lt.png",
     OurClientImgAlt : "Stanza Living"
   }
 ]

@@ -621,6 +621,8 @@ img {
 .our-team .pic img {
   width: 100%;
   height: auto;
+  max-height: 138px;
+  max-width: 138px;
 }
 
 .our-team .team-content {

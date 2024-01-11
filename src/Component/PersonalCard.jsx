@@ -9,7 +9,7 @@ const OurTeam = (props) => {
         <div className="col-lg-4 col-sm-4 col-xs-12">
             <div className="our-team">
                 <div className="pic">
-                    <img src={props.personalimgsrc} alt="Anuj kumar" />
+                    <img src={process.env.PUBLIC_URL+props.personalimgsrc} alt="Anuj kumar" />
                 </div>
                 <div className="team-content">
                     <h3 className="team-title">{props.personalcardname}</h3>

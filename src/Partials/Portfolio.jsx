@@ -4,6 +4,9 @@ import TabPanel from '../Component/TabPanel';
 import GetInTouch from '../Component/GetInTouch';
 import HomeBanner from '../Component/HomeBanner';
 import {BannerJsonList} from '../Component/MenuList';
+
+
+
 const Portfolio = () => {
     return (
         <>
@@ -28,7 +31,6 @@ const Portfolio = () => {
                         <h1 className='section-title'>OUR WORKS</h1>
                     </div>
                     <TabPanel />
-                    
                 </div>
             </section>
             <GetInTouch />
