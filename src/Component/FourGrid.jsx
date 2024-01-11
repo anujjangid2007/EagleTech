@@ -11,7 +11,7 @@ const FourGrid = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="section-title">
-                  <h1 className="text-white">Awesome Feature</h1>
+                  <h1 className="text-white">New Awesome Feature</h1>
                   <span className="divider"></span>
                 </div>
               </div>
